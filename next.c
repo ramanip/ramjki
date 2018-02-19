@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-    int i;
+    int a;
     printf("enter the number");
-    scanf("%d",&i);
+    scanf("%d",&a);
  
-    i++;
-        printf("%d",i);
+    a++;
+        printf("%d",a);
         
     
 }
