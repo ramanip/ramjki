@@ -2,23 +2,23 @@
 #include<conio.h>
 void main()
 {
-    int a[11],i,j,temp;
+    int b[11],i,j,c;
     printf("enter the numbers");
     for(i=0;i<=10;i++)
     {
-    scanf("%d",&a[i]);
+    scanf("%d",&b[i]);
     }
     for(i=0;i<=10;i++)
     {
         for(j=i+1;j<=10;j++)
         {
-            if(a[i]>=a[j])
+            if(b[i]>=b[j])
             {
-                temp=a[i];
-                a[i]=a[j];
-                a[j]=temp;
+                c=b[i];
+                b[i]=b[j];
+                b[j]=c;
             }
         }
     }
-   printf("big=%d",a[10]); 
+   printf("big=%d",b[10]); 
 }
